@@ -8,6 +8,7 @@ function buildMetadata(sample){
       PANEL.append("h6").text(`${key}:${value}`);
       console.log(key,value);
     });
+    buildGauge(data.WFREQ);
     });
   }
   
